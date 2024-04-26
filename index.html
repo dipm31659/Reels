@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallpaper Change</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="/src/output.css">
+  <style>
+    .detailscontainer {
+      background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+    }
+  </style>
+</head>
+
+<body>
+  <div class="w-full h-screen bg-black font-['Poppins']">
+    <div class="image_container w-full h-screen relative overflow-hidden">
+      <div class="main-card w-[130%] h-[130%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  absolute z-[3] ">
+        <img src="" class="w-full h-full object-cover" alt="">
+      </div>
+      <div class="incoming-card w-[130%] h-[130%] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  absolute z-[2]">
+        <img src="" class="w-full h-full object-cover"  alt="">
+      </div>
+    </div>
+    <div class="w-full h-screen absolute top-0 left-0 z-[4] flex flex-col justify-between ">
+      <div class="navbar px-5 py-7  text-white font-bold flex items-center justify-between ">
+        <div class="profile w-16 h-16 rounded-full overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fG1vZGVsfGVufDB8fDB8fHww" class="h-full w-full object-cover object-top" alt="">
+        </div>
+        <h3 class="font-['Poppins'] text-2xl capitalize">they like you.</h3>
+        <div class="chaticon flex items-center justify-center w-16 h-16 bg-white/60 rounded-full">
+          <span class="material-symbols-outlined">forum</span>
+          <div class="badge flex items-center justify-center absolute top-0 right-0 -translate-x-[18px] translate-y-[22px] h-6 w-6 rounded-full bg-red-600">
+            <h5 class="text-white font-medium text-lg">5</h5>
+          </div>
+        </div>
+      </div>
+      <div class="detailscontainer w-full">
+        <div class="details  px-5 py-7 w-full">
+          <div class="element location flex gap-4 items-center">
+            <div class="h-9 w-9 rounded-full text-4xl font-bold bg-white flex items-center justify-center">
+              <span class="material-symbols-outlined font-bold">switch_access_shortcut</span>
+            </div>
+            <h3 class="text-2xl text-white/80 font-semibold tracking-wide">China, Shanghai</h3>
+          </div>
+          <div class="element name flex text-white gap-4 mt-2">
+            <h1 class="text-6xl font-semibold font-['Philosopher']">Victoria</h1>
+            <h1 class="text-6xl font-semibold opacity-60">22</h1>
+          </div>
+          <div class="element tags flex gap-5 mt-3">
+            
+          </div>
+          <div class="element bio mt-4 text-white/80">
+            <h4 class="text-2xl">Bio</h4>
+            <p class="text-white/60 text-xl mt-2"></p>
+          </div>
+          <div class="element flex mt-7 gap-2 ">
+            <button class="reject py-2 w-1/2 rounded-lg bg-white">
+              <span class="text-4xl font-semibold material-symbols-outlined">disabled_by_default</span>
+            </button>
+            <button class="accept py-2 w-1/2 rounded-lg text-white bg-red-500">
+              <span class="text-4xl font-semibold  material-symbols-outlined">heart_check</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
